@@ -1,0 +1,28 @@
+# Local AI downloads and machine-specific settings
+ai/
+ollama/
+models/
+downloads/
+Priestess-ai-root.txt
+priestess-care.xml
+*.log
+
+# Publishing tools, validation output, and ready-to-run release files
+/tools/
+/build-temp/
+/release/
+/checks/
+/docs/V8-validation-original.txt
+/Priestess.exe
+/*.dll
+/*.zip
+*.pdb
+*.tmp
+
+# IDE and operating system files
+.vs/
+.vscode/
+bin/
+obj/
+Thumbs.db
+Desktop.ini

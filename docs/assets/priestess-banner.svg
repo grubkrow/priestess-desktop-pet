@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Priestess — a little company for your desktop</title>
+  <desc id="desc">A violet night sky, orbital lines, and a small constellation. Stable version 8 for Windows.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#21172f"/><stop offset=".55" stop-color="#171121"/><stop offset="1" stop-color="#302040"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#bf9df2" stop-opacity=".22"/><stop offset="1" stop-color="#bf9df2" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent"><stop stop-color="#c7a0f3"/><stop offset="1" stop-color="#f5a2c6"/></linearGradient>
+  </defs>
+  <rect width="1200" height="400" rx="24" fill="url(#night)"/>
+  <rect x="16" y="16" width="1168" height="368" rx="14" fill="none" stroke="#665077" stroke-opacity=".5"/>
+  <circle cx="986" cy="180" r="275" fill="url(#glow)"/>
+  <g fill="none" stroke="#c4a1ed" opacity=".2">
+    <circle cx="983" cy="185" r="113"/><circle cx="983" cy="185" r="158"/>
+    <ellipse cx="983" cy="185" rx="212" ry="72" transform="rotate(-36 983 185)"/>
+    <path d="M851 65 983 112 1089 71 1120 201 1035 270 918 285 879 187Z"/>
+  </g>
+  <g fill="#d8b7fa">
+    <circle cx="851" cy="65" r="3"/><circle cx="1089" cy="71" r="3"/><circle cx="1120" cy="201" r="4"/><circle cx="918" cy="285" r="3"/><circle cx="879" cy="187" r="2"/>
+    <path d="m983 106 5 11 12 5-12 5-5 12-5-12-12-5 12-5Z"/>
+    <path d="m1035 255 4 10 11 5-11 4-4 11-5-11-10-4 10-5Z"/>
+    <circle cx="785" cy="255" r="1.5"/><circle cx="747" cy="80" r="1.5"/><circle cx="1150" cy="318" r="1.5"/><circle cx="822" cy="331" r="1.5"/>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="68" y="81" fill="#d6b6f6" font-size="13" font-weight="600" letter-spacing="5">AN ARKNIGHTS FAN COMPANION</text>
+    <text x="64" y="186" fill="#faf4ff" font-size="88" font-weight="700" letter-spacing="-3">Priestess</text>
+    <rect x="68" y="211" width="62" height="4" rx="2" fill="url(#accent)"/>
+    <text x="68" y="263" fill="#ddd0e8" font-size="27">A little company for your desktop.</text>
+    <text x="68" y="302" fill="#aa96bd" font-size="16">Tiny steps. Head pats. Quiet conversations.</text>
+    <rect x="68" y="332" width="90" height="28" rx="14" fill="#b994e7"/>
+    <text x="113" y="351" text-anchor="middle" fill="#23172e" font-size="12" font-weight="700">v8 STABLE</text>
+    <text x="177" y="351" fill="#b6a4c7" font-size="13" letter-spacing="1">WINDOWS  ·  PORTABLE  ·  OPTIONAL LOCAL AI</text>
+  </g>
+</svg>
